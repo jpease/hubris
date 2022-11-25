@@ -6,6 +6,8 @@
 > 
 > noun. *to think out of septillions of possible combinations you came up with the best keymap*
 
+![Diagram of Hubris layout on Dactyl Manuform 4x6 keyboard](/hubris-v1-dactyl-manuform-4x6-kle.png)
+
 ## Design goals
 
 > **wisdom**
