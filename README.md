@@ -1,4 +1,5 @@
 # Hubris
+
 ## The best keyboard layout
 
 > **hubris**
@@ -15,10 +16,16 @@
 2. Homerow placement of 0-9
 3. Low same finger repetition
 4. Low pinky workload
-5. Inward rolls for a few common English bigrams
-6. Visually symetrical layout
+5. Inward rolls for a few common English bigrams (e.g. ea, ou, st, th)
+6. Visually symmetrical layout
 
 ## Recommendations for the user
 
-1. Use along with an ergonomic keyboard 
+1. Use along with an ergonomic keyboard
+
+## Evaluating characteristics
+
+You may use [the KLA JSON file](hubris-v1-kla.json) in this repo to test the
+layout and compare it to others using Keyboard Layout Analyzer. I happen to like
+[this one](https://klatest.keyboard-design.com).
 
