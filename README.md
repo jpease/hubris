@@ -21,7 +21,10 @@
 
 ## Recommendations for the user
 
-1. Use along with an ergonomic keyboard
+* **Use with an ergonomic keyboard.** I find this helps me keep things
+    separate in my head. If I'm on a standard keyboard my brain defaults to
+    QWERTY. If I'm on my Dactyl Manuform, or similar, I have a physical
+    reminder I'm using Hubris.
 
 ## Evaluating characteristics
 
