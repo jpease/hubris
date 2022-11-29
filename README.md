@@ -31,6 +31,4 @@
 ## Evaluating characteristics
 
 You may use [the KLA JSON file](hubris-v1-kla.json) in this repo to test the
-layout and compare it to others using Keyboard Layout Analyzer. I happen to like
-[this one](https://klatest.keyboard-design.com).
-
+layout and compare it to others using [Keyboard Layout Analyzer](https://klanext.keyboard-design.com).
