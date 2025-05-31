@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>KLE-render</title>
+    <meta name="description" content="Get prettier images of Keyboard Layout Editor designs">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="shortcut icon" href="static/favicon.ico">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda-themeless.min.css">
+  </head>
+
+  <body>
+    <main>
+      <div class="container p-4 p-md-5">
+        <!-- Title -->
+        <h1 class="display-4 mb-0">
+          <img class="d-none d-md-inline mb-2" src="static/k.png" alt="" width=80 height=80>
+          <span class="display-4">KLE-Render</span>
+        </h1>
+        <p class="lead">
+          Get prettier images of <a href="http://www.keyboard-layout-editor.com/">Keyboard Layout Editor</a> designs
+        </p>
+
+        <!-- Flashed messages -->
+        
+        <div class="alert alert-primary alert-dismissible fade show d-none d-md-block" role="alert">
+          <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+          </button>
+          Try <a class="alert-link" href="http://kbrenders.com">kbrenders</a> for photorealistic keyboard renders in 2 hours or less!
+        </div>
+        
+
+        <!-- Form -->
+        <div class="card card-body bg-light my-2">
+          <form action="" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="url">Copy the URL of a saved layout:</label>
+              <!-- links to help1.md on github -->
+              <a class="small align-text-bottom" href="https://git.io/fAgpG" target="_blank" rel="noreferrer">
+                <i class="far fa-question-circle"></i>
+              </a>
+              <input class="form-control url" id="url" name="url" placeholder="keyboard-layout-editor.com/#/gists/..." type="text" value="">
+            </div>
+            <div class="form-group">
+              <label for="json">Or upload raw JSON:</label>
+              <!-- links to help2.md on github -->
+              <a class="small align-text-bottom" href="https://git.io/fAgpc" target="_blank" rel="noreferrer">
+                <i class="far fa-question-circle"></i>
+              </a>
+              <div class="custom-file">
+                <input class="custom-file-input" id="json" name="json" type="file">
+                <span class="custom-file-label"></span>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary ladda-button px-4 mt-2" data-style="expand-right">
+              <span class="ladda-label">Render</span><span class="ladda-spinner"></span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Links -->
+        <nav class="navbar navbar-expand-md navbar-light p-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="links">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="http://github.com/CQCumbers/kle_render#frequently-asked-questions">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://github.com/CQCumbers/kle_render#templates">Templates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/api/">API Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://github.com/CQCumbers/kle_render">Source Code</a>
+              </li>
+            </ul>
+          </div>
+          <span class="navbar-text">Created by <a href="http://github.com/CQCumbers">CQCumbers</a></span>
+        </nav>
+      </div>
+    </main>
+
+    <!-- jQuery, Popper, and Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome and Ladda JS -->
+    <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/ladda.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.6/spin.min.js"></script>
+
+    <script>
+      Ladda.bind('.ladda-button');
+
+      $('.custom-file-input').on('change', function() {
+        let fileName = $(this).val().split('\\').pop();
+        $(this).next('.custom-file-label').html(fileName || 'Choose file');
+      });
+      $('.custom-file-input').change();
+    </script>
+  </body>
+</html>
