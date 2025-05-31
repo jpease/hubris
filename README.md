@@ -32,3 +32,11 @@
 
 You may use [the KLA JSON file](hubris-v2-kla.json) in this repo to test the
 layout and compare it to others using [Keyboard Layout Analyzer](https://klanext.keyboard-design.com).
+
+## KLA Results (2025-05-30)
+
+![KLA Results for Chained Code](/2025-05-30-hubris-kla-chained-code.png)
+
+![KLA Results for Chained Proglish](/2025-05-30-hubris-kla-chained-proglish.png)
+
+![KLA Results for Chained English](/2025-05-30-hubris-kla-chained-english.png)
