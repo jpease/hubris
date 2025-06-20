@@ -1,4 +1,4 @@
-# Hubris
+# Hubris (v2.2)
 
 ## The best keyboard layout
 
