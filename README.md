@@ -6,7 +6,7 @@
 >
 > noun. _to think out of septillions of possible combinations you came up with the best keymap_
 
-![Diagram of Hubris layout on an Ergodox keyboard](/hubris-v2-ergodox-kle.png)
+![Diagram of Hubris layout on an Ergodox keyboard](/hubris-v2.2-ergodox-kle.png)
 
 ## Design goals
 
@@ -30,13 +30,13 @@
 
 ## Evaluating characteristics
 
-You may use [the KLA JSON file](hubris-v2-kla.json) in this repo to test the
+You may use [the KLA JSON file](hubris-v2.2-kla.json) in this repo to test the
 layout and compare it to others using [Keyboard Layout Analyzer](https://klanext.keyboard-design.com).
 
-## KLA Results (2025-05-30)
+## KLA Results (2025-06-20)
 
-![KLA Results for Chained Code](/2025-05-30-hubris-kla-chained-code.png)
+![KLA Results for Chained Code](/2025-06-20-hubris-kla-chained-code.png)
 
-![KLA Results for Chained Proglish](/2025-05-30-hubris-kla-chained-proglish.png)
+![KLA Results for Chained Proglish](/2025-06-20-hubris-kla-chained-proglish.png)
 
-![KLA Results for Chained English](/2025-05-30-hubris-kla-chained-english.png)
+![KLA Results for Chained English](/2025-06-20-hubris-kla-chained-english.png)
